@@ -20,7 +20,7 @@ export default {
         },
       },
       fontFamily: {
-        // System stack for English/Latin; Noto Sans Myanmar appended for Burmese glyphs.
+        // System stack for English/Latin; Pyidaungsu + Noto Sans Myanmar appended for Burmese glyphs.
         sans: [
           'system-ui',
           '-apple-system',
@@ -28,10 +28,11 @@ export default {
           'Roboto',
           'Helvetica',
           'Arial',
+          'Pyidaungsu',
           'Noto Sans Myanmar',
           'sans-serif',
         ],
-        my: ['Noto Sans Myanmar', 'system-ui', 'sans-serif'],
+        my: ['Pyidaungsu', 'Noto Sans Myanmar', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
         prose: '70ch',
