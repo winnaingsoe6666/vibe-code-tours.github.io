@@ -12,7 +12,16 @@ const locale: Locale = getLocale(Astro.url.pathname);
 const s = t(locale).cohortPage;
 
 // All builders for this cohort. Render each markdown body to HTML for the card.
-const all = await getCollection("builders", (b) => b.data.cohort === cohort);
+// Reject placeholder identities — a profile with no real name/github is not shown.
+const PLACEHOLDER =
+  /^(your[ _-]?name|your[ _-]?github[ _-]?username|your[ _-]?username)$/i;
+const all = await getCollection(
+  "builders",
+  (b) =>
+    b.data.cohort === cohort &&
+    !PLACEHOLDER.test(b.data.name.trim()) &&
+    !PLACEHOLDER.test(b.data.github.trim()),
+);
 
 // Instructors/mentors first, then builders; stable by name within group.
 const order = { instructor: 0, mentor: 1, builder: 2 } as const;
