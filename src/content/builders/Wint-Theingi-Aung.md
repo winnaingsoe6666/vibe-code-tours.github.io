@@ -3,10 +3,13 @@ name: Wint Theingi Aung
 github: Wint-Theingi-Aung
 cohort: 1
 role: builder
+skills: ["AI Tools", "Laravel", "CSS"]
+linkedin: winttheingiaung
+Repo: https://github.com/Wint-Theingi-Aung/ubuntu-localization
 ---
 
-Hi! I'm learning to vibe-code with AI. My goal is to build and ship something
-real by Demo Day. Excited to be part of the Tour.
+Hi! I'm learning to vibe code with AI. My goal is to build and ship real projects, create things that make me happy, and contribute to others.
+---
 
 <!--
 HOW TO ADD YOURSELF:
