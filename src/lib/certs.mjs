@@ -29,6 +29,34 @@ export const CERT_CATALOG = {
 // Always-shown core slots (rendered grey when not earned).
 export const CORE_CERTS = ["claude_101", "claude_code_101"];
 
+// Distinct line-icon per cert (inner SVG markup, 24x24 viewBox, stroke style).
+// Rendered with stroke=currentColor so the level color tints each icon.
+export const CERT_ICONS = {
+  // Claude 101 — sparkle/asterisk (the Claude spark)
+  claude_101: '<path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/>',
+  // Claude Code 101 — code chevrons </>
+  claude_code_101: '<path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/>',
+  // Intro to MCP — plug / connector
+  mcp_intro: '<path d="M9 3v5M15 3v5M7 8h10v3a5 5 0 0 1-10 0zM12 16v5"/>',
+  // Agent Skills — lightning bolt
+  agent_skills_intro: '<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>',
+  // Subagents — branch / fan-out
+  subagents_intro:
+    '<circle cx="6" cy="5" r="1.8"/><circle cx="6" cy="19" r="1.8"/><circle cx="18" cy="12" r="1.8"/><path d="M6 7v10M7.6 6.4l8.8 4.8M7.6 17.6l8.8-4.8"/>',
+  // Claude Code in Action — play
+  claude_code_in_action: '<path d="M7 4l12 8-12 8z"/>',
+  // MCP Advanced — stacked layers
+  mcp_advanced: '<path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/>',
+  // Building with the Claude API — braces
+  building_claude_api:
+    '<path d="M8 3c-2 0-2.5 1.5-2.5 4S5 13 3 13c2 0 2.5 1.5 2.5 4S6 21 8 21M16 3c2 0 2.5 1.5 2.5 4S19 13 21 13c-2 0-2.5 1.5-2.5 4S18 21 16 21"/>',
+};
+// Fallback — medal/seal for any unknown cert id.
+export const DEFAULT_ICON =
+  '<circle cx="12" cy="9" r="6"/><path d="M8.5 14l-2 7 5.5-3 5.5 3-2-7"/>';
+
+export const certIcon = (id) => CERT_ICONS[id] || DEFAULT_ICON;
+
 // Level → badge color. Warm amber→gold ramp by rigor; specialized = orange accent.
 export const LEVEL_COLORS = {
   foundational: "#d97706", // deep amber (entry)
@@ -70,6 +98,18 @@ export function certMeta(id) {
 
 export const certColor = (level) => LEVEL_COLORS[level] || LEVEL_COLORS.beginner;
 
+// True amber→gold ramp across the bootcamp path: earlier certs amber,
+// later certs gold. Each cert reads as a distinct tier even at the same level.
+const RAMP_FROM = [245, 158, 11]; // #f59e0b amber
+const RAMP_TO = [253, 224, 71]; // #fde047 gold
+const MAX_ORDER = Math.max(...Object.values(CERT_CATALOG).map((c) => c.order));
+const hex2 = (n) => Math.round(n).toString(16).padStart(2, "0");
+export function certColorByOrder(order) {
+  const t = MAX_ORDER > 1 ? Math.min(Math.max((order - 1) / (MAX_ORDER - 1), 0), 1) : 0;
+  const [r, g, b] = RAMP_FROM.map((from, i) => from + (RAMP_TO[i] - from) * t);
+  return `#${hex2(r)}${hex2(g)}${hex2(b)}`;
+}
+
 // Normalize a raw `certs` frontmatter value into { id: code } with valid codes only.
 export function normalizeCerts(raw) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return undefined;
@@ -99,8 +139,9 @@ export function certDisplayList(certs) {
       level: meta.level,
       earned: !!code,
       code: code || null,
-      color: code ? certColor(meta.level) : CERT_GREY,
+      color: code ? certColorByOrder(meta.order) : CERT_GREY,
       url: code ? skilljarUrl(code) : null,
+      icon: certIcon(id),
     };
   });
 }
