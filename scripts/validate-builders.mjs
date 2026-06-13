@@ -10,18 +10,37 @@ import { CERT_CATALOG } from "../src/lib/certs.mjs";
 // Schema-recognized top-level keys. Anything else is silently dropped by the
 // tolerant content schema — we WARN (never fail) so contributors notice.
 const SCHEMA_KEYS = new Set([
-  "name", "github", "cohort", "role", "skills",
-  "repo", "x", "linkedin", "website", "certs",
+  "name",
+  "github",
+  "cohort",
+  "role",
+  "skills",
+  "repo",
+  "x",
+  "linkedin",
+  "website",
+  "certs",
 ]);
 // Curated near-miss aliases -> correct field (no fuzzy matching = no false positives).
 const FIELD_ALIASES = {
-  web: "website", site: "website", url: "website", homepage: "website", portfolio: "website",
-  git: "github", gh: "github",
-  twitter: "x", tw: "x",
-  linkedln: "linkedin", "linked-in": "linkedin",
-  skill: "skills", tags: "skills",
-  repository: "repo", project: "repo",
-  cert: "certs", certifications: "certs", certs_list: "certs",
+  web: "website",
+  site: "website",
+  url: "website",
+  homepage: "website",
+  portfolio: "website",
+  git: "github",
+  gh: "github",
+  twitter: "x",
+  tw: "x",
+  linkedln: "linkedin",
+  "linked-in": "linkedin",
+  skill: "skills",
+  tags: "skills",
+  repository: "repo",
+  project: "repo",
+  cert: "certs",
+  certifications: "certs",
+  certs_list: "certs",
 };
 const CERT_IDS = new Set(Object.keys(CERT_CATALOG));
 
@@ -90,7 +109,11 @@ for (const f of files) {
       warnings.push(`${f}: unrecognized key '${key}' — this field is ignored.`);
   }
   // certs present but a child id is not in the catalog → likely typo (still renders w/ default label)
-  if (data.certs && typeof data.certs === "object" && !Array.isArray(data.certs)) {
+  if (
+    data.certs &&
+    typeof data.certs === "object" &&
+    !Array.isArray(data.certs)
+  ) {
     for (const cid of Object.keys(data.certs))
       if (!CERT_IDS.has(cid))
         warnings.push(
