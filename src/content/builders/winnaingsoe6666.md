@@ -12,7 +12,7 @@ certs:
   claude_code_101: https://verify.skilljar.com/c/xgfkiaqpzzer
 ---
 
-A **Vibecode Tours Cohort 1** builder mastering AI workflows. I leverage my cloud and frontend experience to ship fast and build in public!
+Mastering AI workflows. I leverage my cloud and frontend experience to ship fast and build in public!
 
 <!--
 HOW TO ADD YOURSELF:
