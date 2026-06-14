@@ -12,7 +12,7 @@ certs:
   claude_code_101: https://verify.skilljar.com/c/xgfkiaqpzzer
 ---
 
-Currently participating in **Vibecode Tours Cohort 1** to master AI-powered workflows. I'm combining my experience in microservices and cloud architecture with modern frontend frameworks to ship features faster. Excited to collaborate with other builders and create meaningful projects in public!
+A builder from **Vibecode Tours Cohort 1**, passionate about mastering AI-powered workflows. I'm combining my experience in microservices and cloud architecture with modern frontend frameworks to ship features faster. Excited to collaborate with other builders and create meaningful projects in public!
 
 <!--
 HOW TO ADD YOURSELF:
