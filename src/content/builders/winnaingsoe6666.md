@@ -7,6 +7,9 @@ skills: [ "Java", "Python", "Automation", "Microservices", "Cloud"]
 x: winnaingso91457
 linkedin: win-naing-soe
 website: https://winnaingsoe.vercel.app
+certs:
+  claude_101: https://verify.skilljar.com/c/5wysaarxqp7s
+  claude_code_101: https://verify.skilljar.com/c/xgfkiaqpzzer
 ---
 
 Currently actively participating in **Vibecode Tours Cohort 1** to master vibe-coding with AI, accelerate my development speed, and build modern full-stack applications faster.
