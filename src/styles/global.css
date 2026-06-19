@@ -114,12 +114,6 @@
   .tier-a {
     @apply bg-white/5 text-gray-500;
   }
-  /* Chapter-level badge on builder cards (color set inline from levels.mjs). */
-  .lvl-badge {
-    @apply inline-flex h-6 min-w-6 items-center justify-center rounded-full px-1.5 text-xs font-bold;
-    border: 1px solid transparent;
-    font-variant-numeric: tabular-nums;
-  }
   .tier-b {
     background: #3b82f611;
     @apply text-blue-400;

@@ -18,6 +18,7 @@ import { certProgressList } from "../lib/certs.mjs";
 const certList = certProgressList(certs); // earned (amber) + next 2 unearned (grey)
 const hasCert = certList.some((c) => c.earned);
 import { levelOf, levelMeta } from "../lib/levels.mjs";
+import RankBadge from "./RankBadge.astro";
 const level = levelOf(github); // highest passed chapter (0..8) or null — from progression DB
 const lvl = levelMeta(level);
 // Level border + glow, derived purely from Discord-verified progress (not self-declared).
@@ -100,12 +101,14 @@ const links = [
       {
         lvl && (
           <span
-            class="lvl-badge ml-auto shrink-0"
-            style={`color:${lvl.color};border-color:${lvl.color}55;background:${lvl.color}14`}
-            title={`${lvl.label} reached`}
+            class="ml-auto inline-flex shrink-0"
             aria-label={`Level: ${lvl.label}`}
           >
-            {level}
+            <RankBadge
+              level={level!}
+              size={40}
+              title={`${lvl.label} reached`}
+            />
           </span>
         )
       }
