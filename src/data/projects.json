@@ -476,22 +476,31 @@
     "github": "furryforwhat",
     "name": "furryforwhat",
     "title": "EazyPortfolio",
-    "desc": "An agent pipeline that turns commit history into a portfolio",
+    "desc": "",
     "repo_url": "https://github.com/FurryForWhat/EazyPortfolio",
-    "live_url": "https://eazy-portfolio-rho.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/intro.md",
+    "live_url": "https://eazy-portfolio-eight.vercel.app",
+    "slides_raw": "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/screenshots/01.png",
     "screenshots": [
       "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/screenshots/01.png",
       "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/screenshots/02.png",
-      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/screenshots/03.png"
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/slides/screenshots/03.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/05-landing-mobile.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/01-landing-desktop.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/04-progress-desktop.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/06-portfolio-mobile.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/07-dashboard-mobile.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/02-portfolio-desktop.png",
+      "https://raw.githubusercontent.com/FurryForWhat/EazyPortfolio/main/screenshots/03-dashboard-desktop.png"
     ],
     "type": "web-app",
     "stack": [
+      "TypeScript",
+      "JavaScript",
       "HTML"
     ],
-    "chapter": 4,
+    "chapter": 5,
     "team": 2
   },
   {
@@ -634,7 +643,7 @@
     "desc": "TripGenie — a React single-page application for trip/travel planning",
     "repo_url": "https://github.com/Heinkhantphyoe/Trip-Genie",
     "live_url": "https://ai-trip-genie-77.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/tech-stack.md",
+    "slides_raw": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/slides/",
     "screenshot_url": "https://raw.githubusercontent.com/Heinkhantphyoe/Trip-Genie/main/screenshots/home.png",
     "screenshots": [
@@ -649,11 +658,11 @@
     ],
     "type": "web-app",
     "stack": [
+      "Python",
       "JavaScript",
-      "CSS",
-      "HTML"
+      "CSS"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 3
   },
   {
@@ -682,7 +691,7 @@
     "stack": [
       "JavaScript",
       "TypeScript",
-      "CSS"
+      "PLpgSQL"
     ],
     "chapter": 5,
     "team": 9
@@ -1089,15 +1098,21 @@
     "screenshots": [
       "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/reports.png",
       "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/checkout.png",
-      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/pos-terminal.png"
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/pos-terminal.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/pos-desktop-1280x800.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/reports-mobile-390x844.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/alerts-desktop-1280x800.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/reports-desktop-1280x800.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/customers-desktop-1280x800.png",
+      "https://raw.githubusercontent.com/kohtun386/POS-system/main/docs/screenshots/inventory-desktop-1280x800.png"
     ],
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "HTML",
+      "Python",
       "PLpgSQL"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 7
   },
   {
@@ -1106,14 +1121,17 @@
     "title": "vibecode-dailyplanner",
     "desc": "VibeCodeTour Personal Project",
     "repo_url": "https://github.com/kokaunghtet/vibecode-dailyplanner",
-    "live_url": "https://vibecode-dailyplanner.web.app/",
-    "slides_raw": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/tech-stack.md",
+    "live_url": "https://vibecode-dailyplanner.web.app",
+    "slides_raw": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/pitch.md",
     "slides_base": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/login.png",
+    "screenshot_url": "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/01-login.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/login.png",
-      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/today.png",
-      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/calendar.png"
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/01-login.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/02-today.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/03-calendar.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/04-login-mobile.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/05-today-mobile.png",
+      "https://raw.githubusercontent.com/kokaunghtet/vibecode-dailyplanner/master/screenshots/06-calendar-mobile.png"
     ],
     "type": "web-app",
     "stack": [
@@ -1121,7 +1139,7 @@
       "TypeScript",
       "JavaScript"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 13
   },
   {
@@ -1245,15 +1263,15 @@
     "name": "mhkaungpyae",
     "title": "Medical_Citation_Chatbot",
     "desc": "Generative RAG chatbot that answers any medical question using live Wikipedia and OpenFDA data, streamed through a local MedGemma model with clickable citations.",
-    "repo_url": "https://github.com/mhkaungpyae/Medical_Citation_Chatbot",
+    "repo_url": "https://github.com/MHKaungPyae/Medical_Citation_Chatbot",
     "live_url": "https://medical-citation-chatbot.vercel.app",
-    "slides_raw": "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/slides/intro.md",
-    "slides_base": "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/screenshots/home-page.png",
+    "slides_raw": "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/screenshots/home-page.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/screenshots/home-page.png",
-      "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/screenshots/login-page.png",
-      "https://raw.githubusercontent.com/mhkaungpyae/Medical_Citation_Chatbot/main/screenshots/register-page.png"
+      "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/screenshots/home-page.png",
+      "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/screenshots/login-page.png",
+      "https://raw.githubusercontent.com/MHKaungPyae/Medical_Citation_Chatbot/main/screenshots/register-page.png"
     ],
     "type": "other",
     "stack": [
@@ -1424,19 +1442,19 @@
   {
     "github": "myathtetkyaw",
     "name": "myathtetkyaw",
-    "title": "tech-news-digest",
+    "title": "ai-news-digest",
     "desc": "Fetches the top 10 trending Hacker News stories, groups them by topic and displays them in a dark-themed web page.",
-    "repo_url": "https://github.com/MyatHtetKyaw/tech-news-digest",
+    "repo_url": "https://github.com/MyatHtetKyaw/ai-news-digest",
     "live_url": "https://ai-tech-news-digest.vercel.app/",
-    "slides_raw": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/slides/pitch.md",
-    "slides_base": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/01.png",
+    "slides_raw": "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/01.png",
     "screenshots": [
-      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/01.png",
-      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/02.png",
-      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/03.png",
-      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/04.png",
-      "https://raw.githubusercontent.com/MyatHtetKyaw/tech-news-digest/main/screenshots/05.png"
+      "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/01.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/02.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/03.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/04.png",
+      "https://raw.githubusercontent.com/MyatHtetKyaw/ai-news-digest/main/screenshots/05.png"
     ],
     "type": "api",
     "stack": [
@@ -1502,9 +1520,9 @@
     ],
     "type": "web-app",
     "stack": [
+      "HTML",
       "JavaScript",
-      "Python",
-      "PLpgSQL"
+      "Python"
     ],
     "chapter": 6,
     "team": 18
@@ -1638,6 +1656,31 @@
       "HTML"
     ],
     "chapter": 4,
+    "team": 12
+  },
+  {
+    "github": "nyan-dev",
+    "name": "nyan-dev",
+    "title": "wishing-well",
+    "desc": "a digital wishing well",
+    "repo_url": "https://github.com/nyan-dev/wishing-well",
+    "live_url": "https://nyan-dev.github.io/wishing-well/",
+    "slides_raw": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/slides/pitch.md",
+    "slides_base": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen01.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen01.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen02.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen03.png",
+      "https://raw.githubusercontent.com/nyan-dev/wishing-well/main/screenshots/screen04.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "chapter": 6,
     "team": 12
   },
   {
@@ -1846,33 +1889,6 @@
     "team": 6
   },
   {
-    "github": "royallyre7",
-    "name": "royallyre7",
-    "title": "lumeokids",
-    "desc": "",
-    "repo_url": "https://github.com/royallyre7/lumeokids",
-    "live_url": "https://github.com/royallyre7/lumeokids/releases",
-    "slides_raw": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/slides/tech-stack.md",
-    "slides_base": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/02-login.png",
-    "screenshots": [
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/02-login.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/01-landing.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/03-register.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/04-dashboard.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/05-child-detail.png",
-      "https://raw.githubusercontent.com/royallyre7/lumeokids/main/screenshots/06-assessment-results.png"
-    ],
-    "type": "web-app",
-    "stack": [
-      "TypeScript",
-      "CSS",
-      "JavaScript"
-    ],
-    "chapter": 5,
-    "team": 3
-  },
-  {
     "github": "saiwaiyanphyo",
     "name": "saiwaiyanphyo",
     "title": "job-your-love",
@@ -1886,8 +1902,8 @@
     "type": "web-app",
     "stack": [
       "TypeScript",
-      "PLpgSQL",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ],
     "chapter": 5,
     "team": 4
@@ -2076,7 +2092,7 @@
       "JavaScript",
       "HTML"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 17
   },
   {
@@ -2138,16 +2154,19 @@
     "github": "tainsinmoe04",
     "name": "tainsinmoe04",
     "title": "wutt",
-    "desc": "",
+    "desc": "AI-powered personal fashion companion for wardrobe management and personalized outfit recommendations.",
     "repo_url": "https://github.com/tainsinmoe04/wutt",
-    "live_url": "https://wutt-ai-stylist.vercel.app/",
+    "live_url": "https://wutt-frontend.onrender.com/",
     "slides_raw": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/tech-stack.md",
     "slides_base": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/slides/",
-    "screenshot_url": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/landing.png",
+    "screenshot_url": "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/login.png",
     "screenshots": [
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/login.png",
       "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/landing.png",
       "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/profile.png",
-      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/wardrobe.png"
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/wardrobe.png",
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/shoppingnoti.png",
+      "https://raw.githubusercontent.com/tainsinmoe04/wutt/main/screenshots/aistylistchat.png"
     ],
     "type": "web-app",
     "stack": [
@@ -2155,7 +2174,7 @@
       "CSS",
       "JavaScript"
     ],
-    "chapter": 5,
+    "chapter": 6,
     "team": 19
   },
   {
@@ -2333,6 +2352,37 @@
     "team": 6
   },
   {
+    "github": "vibecode-ting",
+    "name": "vibecode-ting",
+    "title": "myanmardev.com",
+    "desc": "",
+    "repo_url": "https://github.com/vibecode-ting/myanmardev.com",
+    "live_url": "https://app.myanmardev.com",
+    "slides_raw": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/intro.md",
+    "slides_base": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/archive/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/02_cmd.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/02_cmd.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/01_main.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/04_check.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/01_main_mm.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/07_roadmap.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/09_DOMAINS.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/10_DNS_Records.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/03_what_we_ship.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/05_avaliable_domains.png",
+      "https://raw.githubusercontent.com/vibecode-ting/myanmardev.com/main/screenshots/08_cloudflare_wokers.png"
+    ],
+    "type": "web-app",
+    "stack": [
+      "TypeScript",
+      "Astro",
+      "Shell"
+    ],
+    "chapter": 6,
+    "team": 5
+  },
+  {
     "github": "wailynn351",
     "name": "wailynn351",
     "title": "wc2026-world-cup-predictor",
@@ -2501,6 +2551,34 @@
     ],
     "chapter": 6,
     "team": 13
+  },
+  {
+    "github": "yayyaylay1996",
+    "name": "yayyaylay1996",
+    "title": "DigitalSellingProduct-bot",
+    "desc": "A Telegram bot for selling digital products and managing orders automatically.",
+    "repo_url": "https://github.com/yayyaylay1996/DigitalSellingProduct-bot",
+    "live_url": "https://github.com/yayyaylay1996/DigitalSellingProduct-bot",
+    "slides_raw": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/slides/tech-stack.md",
+    "slides_base": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/slides/",
+    "screenshot_url": "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/1.png",
+    "screenshots": [
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/1.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/2.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/3.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/4.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/5.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/7.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/9.png",
+      "https://raw.githubusercontent.com/yayyaylay1996/DigitalSellingProduct-bot/main/screenshots/10.png"
+    ],
+    "type": "bot",
+    "stack": [
+      "JavaScript",
+      "HTML"
+    ],
+    "chapter": 5,
+    "team": 14
   },
   {
     "github": "ye-lynn-htet",
